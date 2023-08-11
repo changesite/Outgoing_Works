@@ -9,7 +9,7 @@ def progress_list (first_el, d, num):
         res_list.append(first_el + (i-1)*d)
     return res_list
 
-in_list = list (map(int, input('Введите первый элемент, разность b количество элементов прогрессии через пробел: ').split()))
+in_list = list (map(int, input('Введите первый элемент, разность и количество элементов прогрессии через пробел: ').split()))
 first_num = l_num = dd = 0
 for i, item in enumerate (in_list):
     if i == 0:
